@@ -15,12 +15,12 @@
 
 ## 説明
 
-App Router + next-auth を使用した GitHub の認証のサンプルです。
+App Router + next-auth を使用した X(Twitter) の認証(認可)のサンプルです。
 
 .env.sample を.env.local にコピーし、以下の値を設定してください。
 
-- AUTH_GITHUB_ID
-- AUTH_GITHUB_SECRET
+- AUTH_TWITTER_ID
+- AUTH_TWITTER_SECRET
 - AUTH_SECRET
 
 yarn dev で動作を確認できます。
