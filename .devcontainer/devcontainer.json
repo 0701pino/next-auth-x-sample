@@ -1,5 +1,5 @@
 {
-	"name": "nextauth_app_devcontainer",
+	"name": "nextauthx_app_devcontainer",
 	"dockerComposeFile": [
 		"../docker-compose.dev.yml",
 		"docker-compose.yml"
@@ -67,7 +67,7 @@
 				"esbenp.prettier-vscode", // Prettier
 				"formulahendry.auto-rename-tag", // Auto Rename Tag
 				"eamodio.gitlens", // GitLens
-				"bradlc.vscode-tailwindcss"	// Tailwind CSS IntelliSense
+				"bradlc.vscode-tailwindcss" // Tailwind CSS IntelliSense
 			]
 		}
 	}

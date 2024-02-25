@@ -1,8 +1,8 @@
 import NextAuth from "next-auth";
-import GitHub from "next-auth/providers/github";
+import Twitter from "next-auth/providers/twitter";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
-  providers: [GitHub],
+  providers: [Twitter],
   callbacks: {
     authorized({ request, auth }) {
       const { pathname } = request.nextUrl;

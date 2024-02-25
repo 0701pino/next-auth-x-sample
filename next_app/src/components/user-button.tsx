@@ -8,11 +8,11 @@ export default async function UserButton() {
         <form
           action={async () => {
             "use server";
-            await signIn("GitHub");
+            await signIn("Twitter");
           }}
         >
           <button className="my-5 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700">
-            Sign in with GitHub
+            Sign in with Twitter
           </button>
         </form>
       )}
